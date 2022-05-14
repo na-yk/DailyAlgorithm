@@ -34,37 +34,37 @@ while(1):
         sys.exit()
     else:
         stack = Stack()
-        sign = 1
+        flag = 1
         for i in range(len(input)):
             if input[i] == "(" or input[i] == "{" or input[i] == "[":
                 stack.push(input[i])
             elif input[i] == ")" or input[i] == "}" or input[i] == "]":
                 if stack.is_empty() == 1:
-                    sign = 0
+                    flag = 0
                     print("no")
                     break
                 elif input[i] == ")":
                     if stack.pop() == "(":
                         continue
                     else:
-                        sign = 0
+                        flag = 0
                         print("no")
                         break
                 elif input[i] == "}":
                     if stack.pop() == "{":
                         continue
                     else:
-                        sign = 0
+                        flag = 0
                         print("no")
                         break
                 elif input[i] == "]":
                     if stack.pop() == "[":
                         continue
                     else:
-                        sign = 0
+                        flag = 0
                         print("no")
                         break
-        if sign == 1:
+        if flag == 1:
             if stack.is_empty() == 1:
                 print("yes")
             else:

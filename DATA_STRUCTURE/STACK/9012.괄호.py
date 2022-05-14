@@ -32,7 +32,7 @@ for i in range(1,len(input)):
     if ("(" not in input[i]) or (")" not in input[i]):
         print("NO")
     else:
-        sign = 1
+        flag = 1
         stack = Stack()
         for j in range(len(input[i])):
             if input[i][j] == '(':
@@ -40,11 +40,11 @@ for i in range(1,len(input)):
             elif input[i][j] == ')':
                 if stack.is_empty() == 1:
                     print("NO")
-                    sign = 0
+                    flag = 0
                     break
                 else:
                     stack.pop()
-        if sign == 1:     
+        if flag == 1:     
             if stack.is_empty() == 1:
                 print("YES")
             else:
