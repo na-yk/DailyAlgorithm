@@ -1,3 +1,7 @@
+"""
+#9012 괄호
+자료구조-스택
+"""
 import sys
 
 class Stack():
