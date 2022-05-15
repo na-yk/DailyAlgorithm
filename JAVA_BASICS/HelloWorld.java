@@ -1,5 +1,5 @@
 //BOJ #2557 Hello World
-//입출력과 연산자
+//입출력과 사칙연산
 
 package basics;
 
