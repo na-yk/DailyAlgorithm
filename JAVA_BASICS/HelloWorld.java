@@ -1,5 +1,5 @@
 //BOJ #2557 Hello World
-//ÀÔÃâ·Â°ú ¿¬»êÀÚ
+//ì…ì¶œë ¥ê³¼ ì—°ì‚°ì
 
 package basics;
 
