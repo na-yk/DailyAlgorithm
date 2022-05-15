@@ -1,5 +1,5 @@
-//BOJ #10869 »çÄ¢¿¬»ê
-//ÀÔÃâ·Â°ú ¿¬»êÀÚ
+//BOJ #10869 ì‚¬ì¹™ì—°ì‚°
+//ì…ì¶œë ¥ê³¼ ì‚¬ì¹™ì—°ì‚°
 
 package basics;
 
@@ -20,8 +20,8 @@ public class Arithmetic {
 		System.out.println(a+b);
 		System.out.println(a-b);
 		System.out.println(a*b);
-		System.out.println(a/b); //intÇü ³ª´©±â -> ¸òµµ ¹«Á¶°Ç Á¤¼öÇü
-		System.out.println((double)a/b); //¿ÀÂ÷ 10^-9 ÀÌÇÏ
+		System.out.println(a/b); //intí˜• ë‚˜ëˆ„ê¸° -> ëª«ë„ ë¬´ì¡°ê±´ ì •ìˆ˜í˜•
+		System.out.println((double)a/b); //ì˜¤ì°¨ 10^-9 ì´í•˜
 		System.out.println(a%b);
 	}
 }
