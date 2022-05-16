@@ -1,5 +1,5 @@
-// BOJ#2525 ¿Àºì½Ã°è
-// Á¶°Ç¹®
+// BOJ#2525 ì˜¤ë¸ì‹œê³„
+// ì¡°ê±´ë¬¸
 
 
 package basics;
@@ -16,8 +16,8 @@ public class Ovenclock {
 		
 		String[] input = str.split(" ");
 
-		int hour = Integer.parseInt(input[0]); //½Ã
-		int min = Integer.parseInt(input[1]); //ºÐ
+		int hour = Integer.parseInt(input[0]); //Â½Ãƒ
+		int min = Integer.parseInt(input[1]); //ÂºÃ
 		
 		if (time/60 > 0) {
 			hour = hour+(time/60);
