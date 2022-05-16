@@ -1,3 +1,6 @@
+// BOJ#2447
+// 재귀
+
 #include <stdio.h>
 
 void print_star(int i, int j, int num) {
