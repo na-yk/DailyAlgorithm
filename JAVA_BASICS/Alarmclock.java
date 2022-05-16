@@ -1,5 +1,5 @@
-// BOJ#2884 ¾Ë¶÷½Ã°è
-// Á¶°Ç¹®
+// BOJ#2884 ì•ŒëŒì‹œê³„
+// ì¡°ê±´ë¬¸
 
 package basics;
 
@@ -14,8 +14,8 @@ public class Alarmclock {
 		
 		String[] input = str.split(" ");
 		
-		int h = Integer.parseInt(input[0]); //½Ã
-		int m = Integer.parseInt(input[1]);	//ºĞ
+		int h = Integer.parseInt(input[0]); //Â½Ãƒ
+		int m = Integer.parseInt(input[1]);	//ÂºÃ
 		
 		if (m<45) {
 			if (h == 0) h = 23;
