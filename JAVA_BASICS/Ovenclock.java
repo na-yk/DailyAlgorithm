@@ -16,8 +16,8 @@ public class Ovenclock {
 		
 		String[] input = str.split(" ");
 
-		int hour = Integer.parseInt(input[0]); //½Ã
-		int min = Integer.parseInt(input[1]); //ºÐ
+		int hour = Integer.parseInt(input[0]); //��
+		int min = Integer.parseInt(input[1]); //��
 		
 		if (time/60 > 0) {
 			hour = hour+(time/60);

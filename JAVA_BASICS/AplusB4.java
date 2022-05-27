@@ -1,5 +1,5 @@
 //BOJ#10951 A+B -4
-//¹Ýº¹¹® - EOF
+//ë°˜ë³µë¬¸ - EOF
 
 package basics;
 

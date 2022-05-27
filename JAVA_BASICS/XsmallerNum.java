@@ -1,5 +1,5 @@
-// BOJ#10871 Xº¸´Ù ÀÛÀº ¼ö
-// ¹İº¹¹®
+// BOJ#10871 Xë³´ë‹¤ ì‘ì€ ìˆ˜
+// ë°˜ë³µë¬¸
 
 package basics;
 
@@ -11,7 +11,7 @@ public class XsmallerNum {
 		String input1 = br.readLine();
 		String input2 = br.readLine();
 		
-		String[] nx = input1.split(" "); //n°ú x
+		String[] nx = input1.split(" "); //nï¿½ï¿½ x
 		int n = Integer.parseInt(nx[0]);
 		int x = Integer.parseInt(nx[1]);
 		

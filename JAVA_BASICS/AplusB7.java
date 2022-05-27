@@ -1,5 +1,5 @@
 // BOJ#11021 A+B -7
-// ¹Ýº¹¹®
+// ë°˜ë³µë¬¸
 package basics;
 
 import java.io.*;
