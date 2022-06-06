@@ -1,3 +1,8 @@
+"""
+BOJ#2798 블랙잭
+브루트포스
+"""
+
 import sys
 
 first_line = sys.stdin.readline()
