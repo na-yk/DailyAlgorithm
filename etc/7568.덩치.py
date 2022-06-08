@@ -14,9 +14,8 @@ for i in range(n):
     x,y = map(int,sys.stdin.readline().split())
     arr.append([x,y])
 
+
 rank = [0 for i in range(n)]
-
-
 for i in range(n):
     for j in range(n):
         if (arr[i][0]<arr[j][0]) and (arr[i][1]<arr[j][1]):
