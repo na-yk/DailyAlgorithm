@@ -18,4 +18,3 @@ else:
     result = a//(c-b)+1
 
 print(result)
-
