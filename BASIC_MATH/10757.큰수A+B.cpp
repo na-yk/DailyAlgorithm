@@ -1,5 +1,5 @@
-// BOJ#10757 ū �� A+B
-// �⺻ ���� 1
+// BOJ#10757 큰 수 A+B
+// 기본 수학 1
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
