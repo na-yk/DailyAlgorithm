@@ -1,5 +1,5 @@
-// BOJ#10757 Å« ¼ö A+B
-// ±âº» ¼öÇĞ 1
+// BOJ#10757 í° ìˆ˜ A+B
+// ê¸°ë³¸ ìˆ˜í•™ 1
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -63,5 +63,4 @@ int main(void) {
 	reverse(result);
 	printf("%s", result);
 }
-
 
