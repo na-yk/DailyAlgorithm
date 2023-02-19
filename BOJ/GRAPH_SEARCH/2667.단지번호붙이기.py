@@ -8,13 +8,13 @@ from collections import deque
 
 def bfs(graph, sx, sy, visited):
     # 시작점이 집이 아닌 위치(0)이거나 이미 방문한 위치인 경우 0 반환
-    if graph[sx][sy] == 0 or visited[sx][sy] == True:
+    if graph[sy][sx] == 0 or visited[sy][sx] == True:
         return 0
     
     # 시작점이 집의 위치(1)이고 아직 방문하지 않은 위치인 경우 bfs 시작
     queue = deque()
     queue.append((sx, sy))
-    visited[sx][sy] = True
+    visited[sy][sx] = True
     count = 1   # 가구 수를 저장하는 변수
 
     dx = [0, 1, 0, -1]
@@ -25,10 +25,10 @@ def bfs(graph, sx, sy, visited):
         for i in range(4):
             ax = vx + dx[i]
             ay = vy + dy[i]
-            if graph[ax][ay] == 1 and visited[ax][ay] == False:
+            if graph[ay][ax] == 1 and visited[ay][ax] == False:
                 queue.append((ax, ay))
                 count += 1
-                visited[ax][ay] = True
+                visited[ay][ax] = True
 
     return count
 
