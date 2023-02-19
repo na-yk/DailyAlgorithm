@@ -33,7 +33,7 @@ dy = [-1, 0, 1, 0]
 # BFS
 queue = deque()
 queue.append((vx, vy))
-visited[vx][vy] = True  # 시작점 (1,1) 방문 처리
+visited[vy][vx] = True  # 시작점 (1,1) 방문 처리
 
 while (queue):
     vx, vy = queue.popleft()
@@ -42,9 +42,9 @@ while (queue):
     for i in range(4):
         ax = vx+dx[i]
         ay = vy+dy[i]
-        if maze[ax][ay] == 1 and not visited[ax][ay]:
+        if maze[ay][ax] == 1 and not visited[ay][ax]:
             queue.append((ax, ay))
-            maze[ax][ay] = maze[vx][vy] + 1     # 시작점에서 해당 노드까지의 거리로 미로의 값을 업데이트
-            visited[ax][ay] = True
+            maze[ay][ax] = maze[vy][vx] + 1     # 시작점에서 해당 노드까지의 거리로 미로의 값을 업데이트
+            visited[ay][ax] = True
 
 print(maze[n][m])
