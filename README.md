@@ -7,6 +7,7 @@
 |:-------------------------------:|:---------------------|
 |            Algorithm            | 나홀로 알고리즘 공부|
 | [BOJ](https://www.acmicpc.net/) | BAEKJOON Online Judge |  
+| [Programmers](https://school.programmers.co.kr/learn/challenges?order=recent&page=1)|프로그래머스 코딩테스트 연습|
 
 <br>
 
@@ -15,15 +16,15 @@
 ```python
 # 입력
 import sys
-data = sys.stdin().readline().rstrip()
+data = sys.stdin.readline().rstrip()
 
 # 공백을 기준으로 여러 변수 입력
 import sys
-m, n = map(int, sys.stdin().readline().split())
+m, n = map(int, sys.stdin.readline().split())
 
 # 공백을 기준으로 여러 수를 입력 받아 리스트 생성
 import sys
-data = list(map(int, sys.stdin().readline().split()))
+data = list(map(int, sys.stdin.readline().split()))
 ```
 
 
